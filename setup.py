@@ -12,7 +12,7 @@ setup(
     url=meta.url,
     license=meta.license,
     packages=find_packages(),
-    long_description=open("README.rst").read(),
+    long_description='',
     tests_require = ['nose'],
     test_suite = 'nose.collector',
     )
